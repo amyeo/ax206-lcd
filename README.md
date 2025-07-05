@@ -10,6 +10,14 @@ Tested on linux. Other platforms pending.
 $ sudo pacman -S python-libusb1
 ```
 
+## MacOS
+
+Confirmed to work. You may need to install the ff:
+```
+$ brew install libusb
+$ brew install libusb-compat
+```
+
 # Usage example
 
 This will require sudo to write to the device.
